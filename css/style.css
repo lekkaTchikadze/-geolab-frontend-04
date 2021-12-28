@@ -1,0 +1,118 @@
+.background-img{
+    background-image:url("../image/test2.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 640px;   
+}
+.monster{
+    width: 300px;
+    position: absolute;
+    bottom: 18px;
+    left: 30px;
+    animation: monster-move 20s infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+}
+@keyframes monster-move {
+    0% {left: 0;}
+    100% {left: 1050px;}
+}
+.cookie{
+    width: 150px;
+    position:absolute ;
+    top:10px;
+    left:25px;
+    animation: cookie-fly 20s infinite;
+    animation-timing-function: ease;
+    transition: all 3s ease;
+}
+@keyframes cookie-fly{
+    0% {top: 0;}
+    100% {top: 500px;}
+}
+.cookie:hover{
+    width: 190px;
+}
+.cookie2{
+    width: 130px;
+    position:absolute ;
+    top:10px;
+    left: 260px;
+    animation: cookie2-fly 20s infinite;
+    animation-timing-function: ease-in-out;
+    transition: all 2s ease;
+}
+    
+@keyframes cookie2-fly{
+    0% {top:0;}
+    100% {top :500px;}
+}
+.cookie2:hover{
+    width: 190px;
+}
+.cookie3{
+    width: 100px;
+    position:absolute ;
+    top:10px;
+    left: 510px;
+    animation: cookie3-fly 20s infinite;
+    animation-timing-function: ease-out;
+    transition: all 4s ease;
+}
+@keyframes cookie3-fly{
+    0% {top:0;}
+    100% {top :500px;}
+}
+.cookie3:hover{
+    width: 190px;
+}
+.cookie4{
+    width: 150px;
+    position:absolute ;
+    top:10px;
+    left: 730px;
+    animation: cookie4-fly 20s infinite;
+    animation-timing-function:ease-in;
+    transition: all 2s ease;
+}
+@keyframes cookie4-fly{
+    0% {top:0;}
+    100% {top :450px;}
+}
+.cookie4:hover{
+    width: 190px;
+}
+.cookie5{
+    width: 110px;
+    position:absolute ;
+    top:10px;
+    left: 950px;
+    animation: cookie5-fly 20s infinite;
+    animation-timing-function:linear;
+    transition: all 2s ease;
+}
+@keyframes cookie5-fly{
+    0% {top:0;}
+    100% {top :450px;}
+}
+.cookie5:hover{
+    width: 190px;
+}
+.cookie6{
+    width: 130px;
+    position:absolute ;
+    top:10px;
+    left: 1200px;
+    animation: cookie6-fly 20s infinite;
+    animation-timing-function:ease-in;
+    transition: all 2s ease;
+}
+@keyframes cookie6-fly{
+    0% {top:0;}
+    100% {top :500px;}
+}
+.cookie6:hover{
+    width: 170px;
+}
